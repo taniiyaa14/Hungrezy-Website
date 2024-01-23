@@ -1,0 +1,572 @@
+<!doctype html>
+<head><title>Hungrezy.com</title>
+<style>
+#body{
+padding:0px;
+margin:0px;
+overflow-x:hidden;
+}
+#logo{
+position:relative;
+left:50px;
+top:30px;
+}
+#user{
+font-size:30px;
+position:relative;
+left:150px;
+bottom:20px;
+font-weight:bold;
+text-decoration:underline;
+}
+#search{
+position:relative;
+left:660px;
+bottom:50px;
+}
+#line{
+position:relative;
+left:700px;
+bottom:78px;
+font-size:20px;
+}
+#discount{
+position:relative;
+left:780px;
+bottom:105px;
+}
+#line1{
+position:relative;
+left:820px;
+bottom:135px;
+font-size:20px;
+}
+#help{
+position:relative;
+left:900px;
+bottom:162px;
+}
+#line2{
+position:relative;
+left:940px;
+bottom:190px;
+font-size:20px;
+}
+#userlogo{
+position:relative;
+left:1010px;
+bottom:222px;
+}
+#line3{
+position:relative;
+left:1050px;
+bottom:252px;
+font-size:20px;
+}
+#cart{
+position:relative;
+left:1140px;
+bottom:280px;
+}
+#line4{
+position:relative;
+left:1185px;
+bottom:310px;
+font-size:20px;
+}
+#box{
+width:100%;
+height:350px;
+background-color:black;
+border:1px solid black;
+position:relative;
+bottom:280px;
+}
+.image{
+padding:38px;
+}
+li{
+font-size:20px;
+float:left;
+padding:30px;
+position:relative;
+bottom:300px;
+}
+#list{
+font-size:25px;
+font-weight:bold;
+margin-right:300px;
+}
+a{
+text-decoration:none;
+color:black;
+}
+.food{
+position:relative;
+bottom:350px;
+padding:70px;
+}
+#burger{
+position:relative;
+top:-2380px;
+font-size:20px;
+font-weight:bold;
+left:80px;
+}
+#infoburger{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2380px;
+left:80px;
+}
+#offerburger{
+position:relative;
+top:-2380px;
+left:80px;
+color:maroon;
+}
+#rolls{
+position:relative;
+top:-2490px;
+font-size:20px;
+font-weight:bold;
+left:530px;
+}
+#inforoll{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2490px;
+left:530px;
+}
+#offerroll{
+position:relative;
+top:-2490px;
+left:530px;
+color:maroon;
+}
+#kitchen{
+position:relative;
+top:-2605px;
+font-size:20px;
+font-weight:bold;
+left:980px;
+}
+#infokit{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2605px;
+left:980px;
+}
+#offerkit{
+position:relative;
+top:-2605px;
+left:980px;
+color:maroon;
+}
+#chaat{
+position:relative;
+top:-2330px;
+font-size:20px;
+font-weight:bold;
+left:80px;
+}
+#infochat{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2330px;
+left:80px;
+}
+#offerchat{
+position:relative;
+top:-2330px;
+left:80px;
+color:maroon;
+}
+#juice{
+position:relative;
+top:-2445px;
+font-size:20px;
+font-weight:bold;
+left:530px;
+}
+#infojuice{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2445px;
+left:530px;
+}
+#offerjuice{
+position:relative;
+top:-2445px;
+left:530px;
+color:maroon;
+}
+#momo{
+position:relative;
+top:-2558px;
+font-size:20px;
+font-weight:bold;
+left:980px;
+}
+#infomomo{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2558px;
+left:980px;
+}
+#offermomo{
+position:relative;
+top:-2558px;
+left:980px;
+color:maroon;
+}
+#dominos{
+position:relative;
+top:-2280px;
+font-size:20px;
+font-weight:bold;
+left:80px;
+}
+#infodomino{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2280px;
+left:80px;
+}
+#offerdomino{
+position:relative;
+top:-2280px;
+left:80px;
+color:maroon;
+}
+#icecream{
+position:relative;
+top:-2395px;
+font-size:20px;
+font-weight:bold;
+left:530px;
+}
+#infoice{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2395px;
+left:530px;
+}
+#offerice{
+position:relative;
+top:-2395px;
+left:530px;
+color:maroon;
+}
+#chinese{
+position:relative;
+top:-2510px;
+font-size:20px;
+font-weight:bold;
+left:980px;
+}
+#infochinese{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2510px;
+left:980px;
+}
+#offerchinese{
+position:relative;
+top:-2510px;
+left:980px;
+color:maroon;
+}
+#jumbo{
+position:relative;
+top:-2230px;
+font-size:20px;
+font-weight:bold;
+left:80px;
+}
+#infojumbo{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2230px;
+left:80px;
+}
+#offerjumbo{
+position:relative;
+top:-2230px;
+left:80px;
+color:maroon;
+}
+#thali{
+position:relative;
+top:-2345px;
+font-size:20px;
+font-weight:bold;
+left:530px;
+}
+#infothali{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2345px;
+left:530px;
+}
+#offerthali{
+position:relative;
+top:-2345px;
+left:530px;
+color:maroon;
+}
+#pizza{
+position:relative;
+top:-2458px;
+font-size:20px;
+font-weight:bold;
+left:980px;
+}
+#infopizza{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2458px;
+left:980px;
+}
+#offerpizza{
+position:relative;
+top:-2458px;
+left:980px;
+color:maroon;
+}
+#biryani{
+position:relative;
+top:-2175px;
+font-size:20px;
+font-weight:bold;
+left:80px;
+}
+#infobiryani{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2175px;
+left:80px;
+}
+#offerbiryani{
+position:relative;
+top:-2175px;
+left:80px;
+color:maroon;
+}
+#natural{
+position:relative;
+top:-2290px;
+font-size:20px;
+font-weight:bold;
+left:530px;
+}
+#infonatural{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2290px;
+left:530px;
+}
+#offernatural{
+position:relative;
+top:-2290px;
+left:530px;
+color:maroon;
+}
+#bar{
+position:relative;
+top:-2405px;
+font-size:20px;
+font-weight:bold;
+left:980px;
+}
+#infobar{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2405px;
+left:980px;
+}
+#offerbar{
+position:relative;
+top:-2405px;
+left:980px;
+color:maroon;
+}
+#fried{
+position:relative;
+top:-2120px;
+font-size:20px;
+font-weight:bold;
+left:80px;
+}
+#infofried{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2120px;
+left:80px;
+}
+#offerfried{
+position:relative;
+top:-2120px;
+left:80px;
+color:maroon;
+}
+#grill{
+position:relative;
+top:-2235px;
+font-size:20px;
+font-weight:bold;
+left:530px;
+}
+#infogrill{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2235px;
+left:530px;
+}
+#offergrill{
+position:relative;
+top:-2235px;
+left:530px;
+color:maroon;
+}
+#waffale{
+position:relative;
+top:-2351px;
+font-size:20px;
+font-weight:bold;
+left:980px;
+}
+#infowaffale{
+border-bottom:1px solid lightgrey;
+width:23%;
+position:relative;
+top:-2351px;
+left:980px;
+}
+#offerwaffale{
+position:relative;
+top:-2351px;
+left:980px;
+color:maroon;
+}
+</style>
+</head>
+<body id="body">
+<div id="logo"><img src="LOGO.jpg" height="70px" width="70px"></div>
+<div id="user">Pimpri,Pune-411018</div>
+<div id="search"><img src="search.png" height="25px" width="25px"></div>
+<div id="line">Search</div>
+<div id="discount"><img src="discount.png" height="30px" width="30px"></div>
+<div id="line1">Offers</div>
+<div id="help"><img src="help.png" height="30px" width="30px"></div>
+<div id="line2">Help</div>
+<div id="userlogo"><img src="user.png" height="35px" width="35px"></div>
+<div id="line3"><a href="login.html">Sign In</a></div>
+<div id="cart"><img src="cart.png" height="30px" width="30px"></div>
+<div id="line4">Cart</div>
+<div id="box">
+<img src="discount.jpg" height="250px" width="250px" class="image">
+<img src="pizza.jpg" height="250px" width="250px" class="image">
+<img src="chef.jpg" height="250px" width="250px" class="image">
+<img src="biryani.jpg" height="250px" width="250px" class="image">
+</div>
+<ul type="none">
+<li id="list">300+ Restaurants</li>
+<li>Relevance</li>
+<li>Cost For Two</li>
+<li>Delivery Time</li>
+<li>Rating</li>
+<li>Filters</li>
+</ul>
+<hr size="2px" color="lightgrey" width="95%" style="position:relative; bottom:320px;">
+<img src="burger king.jpg" height="250px" width="300px" class="food">
+<img src="rolls mania.jpg" height="250px" width="300px" class="food">
+<img src="mothers kitchen.jpg" height="250px" width="300px" class="food">
+<img src="chaat.jpg" height="250px" width="300px" class="food">
+<img src="juice.jpg" height="250px" width="300px" class="food">
+<img src="momos.jpg" height="250px" width="300px" class="food">
+<a href="dominos.html"><img src="dominos.jpg" height="250px" width="300px" class="food"></a>
+<img src="ice cream.jpg" height="250px" width="300px" class="food">
+<img src="chinese wok.jpg" height="250px" width="300px" class="food">
+<img src="jumboking.jpg" height="250px" width="300px" class="food">
+<img src="thali.jpg" height="250px" width="300px" class="food">
+<img src="pizza hut.jpg" height="250px" width="300px" class="food">
+<img src="biryani house.jpg" height="250px" width="300px" class="food">
+<img src="naturals ice.jpg" height="250px" width="300px" class="food">
+<img src="paneer tikka.jpg" height="250px" width="300px" class="food">
+<img src="friedmomos.jpg" height="250px" width="300px" class="food">
+<img src="barbequee.jpg" height="250px" width="300px" class="food">
+<img src="belgian waffale.jpg" height="250px" width="300px" class="food">
+<div id="burger">Burger King</div>
+<div id="infoburger">American, Fast Food<br>#Rating:4 <br> #350rs for two <br> #delivery time:47 min<br></div>
+<div id="offerburger">30% off on using code - HungrezyIt</div>
+<div id="rolls">Rolls Mania</div>
+<div id="inforoll">Fast Food<br>#Rating:3.9  <br>#200rs for two <br> #41min<br></div>
+<div id="offerroll">40% off on using code -HungrezyIt</div>
+<div id="kitchen">Mother's Kitchen</div>
+<div id="infokit">North Indian,Chinese,Thalis,Biryani,Combo<br>#Rating:3.8 <br> #200rs for two <br> #50min<br></div>
+<div id="offerkit">20% off on using code - HungrezyIt</div>
+<div id="chaat">Chat Bazaar</div>
+<div id="infochat">Chinese,North Indian,Street Food<br>#Rating:4.5 <br> #150rs for two <br> #20min<br></div>
+<div id="offerchat">45% off on using code - HungrezyKaro</div>
+<div id="juice">Fruzo Real Fruit Juice</div>
+<div id="infojuice">Juice<br>#Rating:4.5 <br> #200rs for two <br> #20min<br></div>
+<div id="offerjuice">35% off on using code - JustHungrezy</div>
+<div id="momo">House of Momos</div>
+<div id="infomomo">Fast Food<br>#Rating:3.8 <br> #300rs for two <br> #40min<br></div>
+<div id="offermomo">30% off on using code - HungrezyIt</div>
+<div id="dominos">Domino's Pizza</div>
+<div id="infodomino">Pizzas<br>#Rating:3.6 <br> #400rs for two <br> #30min<br></div>
+<div id="offerdomino">40% off on using code - HungrezyIt</div>
+<div id="icecream">The Brooklyn Creamery</div>
+<div id="infoice">Deserts,Ice Cream<br>#Rating:4.0 <br> #200rs for two <br>  #28min<br></div>
+<div id="offerice">30% off on using code - HungrezyKaro</div>
+<div id="chinese">Chinese Wok(Wok Express)</div>
+<div id="infochinese">Chinese<br>#Rating:3.0 <br> #300rs for two <br> #24min<br></div>
+<div id="offerchinese">20% off on using code - JustHungrezyIt</div>
+<div id="jumbo">JumboKing</div>
+<div id="infojumbo">Fast Food<br>#Rating:4.1 <br> #100rs for two <br> #28min<br></div>
+<div id="offerjumbo">50% off on using code - JustHungrezyIt</div>
+<div id="thali">Raaga Pure Veg Restaurant</div>
+<div id="infothali">Maharashtrian Restaurant<br>#Rating:3.5 <br> #100rs for two <br> #28min<br></div>
+<div id="offerthali">50% off on using code - HungrezyKaro</div>
+<div id="pizza">Pizza Hut</div>
+<div id="infopizza">Pizzas, Fast Food<br>#Rating:3.9 <br>  #350rs for two <br> #41min<br></div>
+<div id="offerpizza">20% off on using code - Hungrezyyy</div>
+<div id="biryani">Reddy's Hyderabadi Biryani</div>
+<div id="infobiryani">Biryani,North Indian<br>#Rating:3.9 <br> #300rs for two <br> #30min<br></div>
+<div id="offerbiryani">20% off on all orders</div>
+<div id="natural">Natural Ice Cream</div>
+<div id="infonatural">Ice Cream<br>#Rating:4.8 <br> #150rs for two <br> #26min<br></div>
+<div id="offernatural">10% off on all orders</div>
+<div id="bar">Barbeque Nation</div>
+<div id="infobar">Barbecue<br>#Rating:3.9 <br> #250rs for two <br> #30min<br></div>
+<div id="offerbar">5% off on using code - Use HungrezyKaro</div>
+<div id="fried">MOMOS HUT</div>
+<div id="infofried">Chinese,Fast Food<br>#Rating:4.4 <br> #250rs for two <br> #45min<br></div>
+<div id="offerfried">30% off on all orders below 699rs</div>
+<div id="grill">China Grill</div>
+<div id="infogrill">Chinese,Fast Food,Restaurant<br>#Rating:3.9 <br> #450rs for two <br> #50min<br></div>
+<div id="offergrill">20% off on all orders below 999rs</div>
+<div id="waffale">The Belgian Waffale Co.</div>
+<div id="infowaffale">Desserts,Beverages<br>#Rating:4.4 <br> #200rs for two <br> #48min<br></div>
+<div id="offerwaffale">30% off on using code - Hungrezyyy</div>
+</body>
+</html>

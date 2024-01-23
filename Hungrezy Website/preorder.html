@@ -1,0 +1,138 @@
+<!doctype html>
+<head><title>Hungrezy.com</title>
+<style>
+#body{
+background-image:url('pizzabg.jpg');
+background-attachment:fixed;
+background-size:cover;
+overflow:hidden;
+}
+#box{
+width:530px;
+height:640px;
+background-color:white;
+border:1px solid white;
+position:relative;
+left:770px;
+border-radius:20px;
+}
+#heading{
+font-size:30px;
+font-weight:bold;
+position:relative;
+top:20px;
+left:20px;
+}
+#rupee{
+font-size:18px;
+position:relative;
+top:30px;
+left:20px;
+}
+#border{
+border-bottom:2px dashed black;
+position:relative;
+top:45px;
+}
+#crust{
+position:relative;
+top:70px;
+left:20px;
+font-size:18px;
+}
+span{
+font-size:25px;
+font-weight:bold;
+}
+input[type="radio"],label{
+position:relative;
+left:20px;
+top:80px;
+font-size:20px;
+}
+#size{
+position:relative;
+top:95px;
+left:20px;
+}
+#reg,#med,#large,.pizzasize{
+position:relative;
+left:20px;
+top:100px;
+}
+i{
+font-size:18px;
+position:relative;
+left:50px;
+}
+#topping{
+position:relative;
+top:115px;
+left:20px;
+}
+input[type="checkbox"],.topping{
+position:relative;
+left:20px;
+top:120px;
+font-size:20px;
+}
+a{
+text-decoration:none;
+height:20px;
+width:40px;
+background-color:green;
+color:white;
+text-align:center;
+padding:10px;
+position:relative;
+top:138px;
+left:20px;
+}
+</style>
+</head>
+<body id="body">
+<div id="box">
+<div id="heading">Customize "Indi Tandoori Paneer"</div>
+<div id="rupee">Rs.235-Rs.695</div>
+<div id="border"></div>
+<div id="crust">* <span>Choose Crust</span> (required)</div>
+<form>
+<input type="radio" name="crust" value="New Hand Tossed" id="hand">
+<label for="hand">New Hand Tossed</label><br>
+<input type="radio" name="crust" value="Wheat Thin Crust" id="wheat">
+<label for="wheat">Wheat Thin Crust</label><br>
+<input type="radio" name="crust" value="Cheese Burst" id="cheese">
+<label for="cheese">Cheese Burst</label><br>
+<input type="radio" name="crust" value="Fresh Pan Pizza" id="fresh">
+<label for="fresh">Fresh Pan Pizza</label><br>
+<input type="radio" name="crust" value="Classic Hand Tossed" id="classic">
+<label for="classic">Classic Hand Tossed</label><br>
+<div id="size">* <span>Choose Size</span> (required)</div>
+<input type="radio" name="size" value="New Hand Tossed" id="reg">
+<label for="reg" class="pizzasize">Regular<i> Rs.235</i></label><br>
+<input type="radio" name="size" value="Wheat Thin Crust" id="med">
+<label for="med" class="pizzasize">Medium<i> Rs.450</i></label><br>
+<input type="radio" name="size" value="Cheese Burst" id="large">
+<label for="large" class="pizzasize">Large<i> Rs.695</i></label><br>
+<div class="topping">* <span>Topping</span> (optional)</div>
+<input type="checkbox"><label class="topping">Chicken Pepperoni</label>
+<input type="checkbox"><label class="topping">Crisp Capsicum</label>
+<input type="checkbox"><label class="topping">Onion</label><br>
+<input type="checkbox"><label class="topping">Chicken Tikka</label>
+<input type="checkbox"><label class="topping">Golden Corn</label>
+<input type="checkbox"><label class="topping">Fresh Tomato</label><br>
+<input type="checkbox"><label class="topping">Extra Cheese</label>
+<input type="checkbox"><label class="topping">Grilled Chicken Rasher</label>
+<input type="checkbox"><label class="topping">Paneer</label><br>
+<input type="checkbox"><label class="topping">Black Olive</label>
+<input type="checkbox"><label class="topping">Grilled Mushrooms</label>
+<input type="checkbox"><label class="topping">Chicken Sausage</label><br>
+<input type="checkbox"><label class="topping">Red Pepper</label>
+<input type="checkbox"><label class="topping">Jalapeno</label>
+<input type="checkbox"><label class="topping">Peri-Peri Chicken</label><br>
+<input type="checkbox"><label class="topping">Pepper Barbecue Chicken</label>
+</form>
+<a href="checkout.html">Add items to cart</a>
+</div>
+</body>
+</html>
